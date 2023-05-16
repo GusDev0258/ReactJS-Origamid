@@ -1,12 +1,13 @@
 import React from "react";
+import {ContextStorage} from './GlobalContext';
+import Super from "./Super";
+
 
 const App = () =>{
   return (
-    <React.Fragment>
-      <button>
-        Comprar
-      </button>
-    </React.Fragment>
+    <ContextStorage>
+      <Super />
+    </ContextStorage>
   )
 }
 

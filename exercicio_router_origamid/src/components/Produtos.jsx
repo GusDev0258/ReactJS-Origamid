@@ -3,7 +3,7 @@ import styles from '../css/Produtos.module.css';
 
 const Produtos = () => {
   return (
-    <div>Produtos</div>
+    <div className={styles.produtos}>Produtos</div>
   )
 }
 
